@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: #F1E9E9;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+h2, h3{
+   color: #D25950;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   padding: 0;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 700px;
+    margin:auto;
+   
+
+}
+header{
+    background-color:#FFBDB2;
+    width: 100%;
+   
+}
+.container_rosamenu{
+    max-width: 1080px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo_menu{
+    width: 25%;
+
+}
+
+.logo_menu img{
+    width: 195px;
+    cursor:pointer;
+        
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a {
+    color: #F1E9E9;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.container banner-principal{
+    width: 100%;
+}
+.container-banner img{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.containerdestaques{
+padding: 0;
+width: 0 auto;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+}
+.containerFotosDestaques{
+display: flex;
+}
+.FotosDestaques{
+    margin: auto;
+   
+}
+.FotosDestaques img{
+width: 300px;
+max-height: 280px;
+min-height: 250px;
+border: 10px solid #F1E9E9;
+}
+.rodape{
+    background-color: #FFBDB2;
+    padding: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 1280px) {
+    .containerFotosDestaques{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 700px) {
+    nav a{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header .logo_menu{
+        display: none;
+    }
+ }
+@media screen and (max-width: 400px) {
+        .containerFotosDestaques{
+            flex-wrap: wrap;
+        }
+ }
+

@@ -1,0 +1,90 @@
+html{
+    background-color: white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: white;
+}
+
+body{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    margin: 100px;
+  
+   
+}
+
+
+form{
+    width: 90%;
+    min-width: 450px;
+    max-width: 700px;
+    background-color: #EEA69A;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    
+}
+
+fieldset{
+    border: none;
+    padding: 0;
+margin: 0;
+
+}
+
+label,
+input,
+textarea{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+input, textarea{
+    background-color: rgb(240, 218, 221);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+padding: .75em;
+margin: .5em 0 2.5em;
+color:black
+}
+
+
+input:focus, textarea:focus{
+    border-bottom: 2px solid #8e999a;
+    background-color: white;
+
+}
+
+
+legend{
+    padding: .5em;
+    text-align: center;
+    font-weight: bold;
+    color: #4b4b4b;
+    font-size: 1.3em;
+}
+
+.botao{
+    background-color: rgb(172, 116, 123);
+    color: white;
+    cursor: pointer;
+    padding: 14px;
+    font-size: 16px;
+    
+
+}
+
+.maps{
+width: 60%;
+min-height: 75%;
+position:absolute;
+bottom: 0;
+right: 0;
+left: 0;
+top: 125%;
+margin:auto;
+
+}
